@@ -2,15 +2,27 @@
 
 A new Flutter project.
 
-## Getting Started
+## How to Run
 
-This project is a starting point for a Flutter application.
+# Unit Test & Widget Test
+  
+  Unit Test and Widget Test can be directly run from the test folder
+  
+  Run:
+  flutter test <path to test.dart file>
+    
+# Integration Test
+  
+  2 ways to run:
+  
+  1. Can be run from integration_test folder
+      
+      Run:
+      flutter test <path to app_test.dart inside integration_test folder>
+  
+  2. Can be run using shell file (Provided a Sample Favorite Test with local_runner.sh file)
+  
+      Run:
+      sh local_runner.sh
+  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
